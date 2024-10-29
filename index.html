@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkylineWeb</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0bd503d0d0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="heroText">
+            <h1>SkylineWeb</h1>
+            <p>Responsywne i estetyczne strony internetowe.</p>
+        </div>
+        <div class="heroShadow"></div>
+        <nav>
+            <ul class="mobileItems">
+                <li>
+                    <i class="fa-solid fa-bars" id="menuToggle"></i>
+                </li>
+            </ul>
+            <ul class="ulItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutUsId">O nas</a></li>
+                <li><a href="#OfferId">Usługi</a></li>
+                <li><a href="#FaqId">FAQ</a></li>
+                <li><a href="#contactId">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="sidePanel" id="sidePanel">
+            <i class="fa-solid fa-x" id="closePanel"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutUsId">O nas</a></li>
+                <li><a href="#OfferId">Usługi</a></li>
+                <li><a href="#FaqId">FAQ</a></li>
+                <li><a href="#contactId">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="boxOneText" id="aboutUsId" data-aos="fade-right">
+            <div class="firstSegment">
+                <h2>SkylineWeb</h2>
+                <div class="line"></div>
+                <p><span class="textBold">SkylineWeb</span> to zespół pasjonatów technologii, który z pełnym
+                    zaangażowaniem
+                    tworzy nowoczesne,
+                    funkcjonalne i estetyczne strony internetowe. Naszym celem jest dostarczanie rozwiązań, które nie
+                    tylko
+                    spełniają oczekiwania klientów, ale także pomagają im rozwijać swoją działalność online.</p>
+            </div>
+            <div class="secondSegment">
+                <img src="./img/skyline logo.png" alt="Logo firmy SkylineWeb" class="logoSkyline">
+            </div>
+        </section>
+        <section class="aboutUs" data-aos="fade-right" data-aos-offset="250">
+            <div class="firstSegment">
+                <h2>Nasza misja</h2>
+                <div class="line"></div>
+                <p><span class="textBold">Każdy projekt</span> traktujemy indywidualnie, dostosowując nasze usługi do
+                    unikalnych potrzeb i celów naszych
+                    klientów. Wierzymy, że dobrze zaprojektowana strona internetowa może być potężnym narzędziem
+                    marketingowym, dlatego dokładamy wszelkich starań, aby każda nasza realizacja była perfekcyjna pod
+                    każdym względem.</p>
+            </div>
+            <div class="secondSegment">
+                <img src="./img/target-small.png" alt="target" class="targetImg">
+            </div>
+        </section>
+        <section class="aboutUsTwo" data-aos="fade-right" data-aos-offset="250">
+            <div class="firstSegment">
+                <h2>Nasze wartości</h2>
+                <div class="line"></div>
+                <p><span class="textBold">Innowacyjność:</span> Stale poszukujemy nowych technologii i metod, aby nasze
+                    projekty były na najwyższym
+                    poziomie.</p>
+                <p><span class="textBold">Jakość:</span> Skupiamy się na szczegółach, aby każda strona, którą tworzymy,
+                    była
+                    nie tylko estetyczna, ale
+                    także funkcjonalna i niezawodna.</p>
+                <p><span class="textBold">Klient na pierwszym miejscu: </span>Słuchamy naszych klientów i współpracujemy
+                    z
+                    nimi na każdym etapie projektu,
+                    aby osiągnąć najlepsze rezultaty.</p>
+            </div>
+            <div class="secondSegment">
+                <img src="./img/customer-small.png" alt="customer" class="customerImg">
+            </div>
+        </section>
+        <section class="aboutUsThree" id="OfferId" data-aos="fade-up" data-aos-offset="250">
+            <h2>Co oferujemy?</h2>
+            <div class="line"></div>
+            <p><span class="textBold">Projektowanie stron internetowych:</span> Od prostych wizytówek po rozbudowane
+                landing page'e</p>
+            <p><span class="textBold">Optymalizacja SEO:</span> Pomagamy Twojej stronie osiągnąć wyższe pozycje w
+                wynikach wyszukiwania.</p>
+            <p><span class="textBold">Responsywność:</span> Wszystkie nasze projekty są zoptymalizowane pod kątem
+                działania na różnych
+                urządzeniach –
+                od komputerów po smartfony.</p>
+        </section>
+
+
+        <section class="containerOffer">
+            <div class="thirdSegment">
+                <section class="offerSection" data-aos="flip-left" data-aos-offset="250">
+                    <div class="offerCard">
+                        <h2>Plan Basic</h2>
+                        <p class="price"><span class="oldPrice">1599zł</span>1499zł</p>
+                        <div class="ribbon"><span>-100zł</span></div>
+                        <button class="btnColor1"><a href="#contactId">Omów szczegóły</a></button>
+                        <ul>
+                            <li>Liczba podstron: 3</li>
+                            <li>Projekt graficzny dostosowany do branży</li>
+                            <li>Integracja z podstawowymi mediami społecznościowymi (Facebook, Instagram)</li>
+                            <li>Zoptymalizowany design strony, który wygląda dobrze zarówno na komputerach, jak i na
+                                urządzeniach mobilnych.</li>
+                            <li>Konfiguracja strony</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="offerSection" data-aos="flip-left" data-aos-offset="250">
+                    <div class="offerCard">
+                        <h2>Plan Medium</h2>
+                        <p class="price"><span class="oldPrice">2099zł</span>1799zł</p>
+                        <div class="ribbon"><span>-300zł</span></div>
+                        <button class="btnColor2"><a href="#contactId">Omów szczegóły</a></button>
+                        <ul>
+                            <li>Liczba podstron: 5</li>
+                            <li>Projekt graficzny dostosowany do branży</li>
+                            <li>Integracja z podstawowymi mediami społecznościowymi (Facebook, Instagram)</li>
+                            <li>Zoptymalizowany design strony, który wygląda dobrze zarówno na komputerach, jak i na
+                                urządzeniach mobilnych.</li>
+                            <li>Konfiguracja strony</li>
+                            <li>Mapa lokalizacyjna z adresem firmy (Integracja z Google Maps).</li>
+                            <li>Prosty i przejrzysty formularz z polami na imię, e-mail i treść wiadomości,
+                                zapewniający łatwy sposób kontaktu dla odwiedzających stronę.</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="offerSection" id="OfferId" data-aos="flip-left" data-aos-offset="250">
+                    <div class="offerCard">
+                        <h2>Plan Advanced</h2>
+                        <p class="price"><span class="oldPrice">2499zł</span>2099zł</p>
+                        <div class="ribbon"><span>-400zł</span></div>
+                        <button class="btnColor3"><a href="#contactId">Omów szczegóły</a></button>
+                        <ul>
+                            <li>Liczba podstron: nielimitowana ilość</li>
+                            <li>Projekt graficzny dostosowany do branży</li>
+                            <li>Integracja z podstawowymi mediami społecznościowymi (Facebook, Instagram)</li>
+                            <li>Zoptymalizowany design strony, który wygląda dobrze zarówno na komputerach, jak i na
+                                urządzeniach mobilnych.</li>
+                            <li>Konfiguracja strony</li>
+                            <li>Mapa lokalizacyjna z adresem firmy (Integracja z Google Maps).</li>
+                            <li>Prosty i przejrzysty formularz z polami na imię, e-mail i treść wiadomości,
+                                zapewniający łatwy sposób kontaktu dla odwiedzających stronę.</li>
+                            <li>Wdrożenie narzędzi SEO, aby Twoja strona była wysoko pozycjonowana w wyszukiwarkach</li>
+                            <li>Wybór motywów na stronie</li>
+                            <li>Wersja językowa (Polski, Angielski)</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="faq-container" id="FaqId" data-aos="zoom-in" data-aos-offset="200">
+            <h2 class="faq">FAQ</h2>
+            <div class="line"></div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-toggle">+</span>
+                    <h2>Ile czasu muszę czekać na stronę?</h2>
+                </div>
+                <div class="faq-answer">
+                    <p>Czas oczekiwania na ukończenie strony internetowej wynosi od 1 tygodnia do 1 miesiąca, w
+                        zależności od poziomu zaawansowania projektu.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-toggle">+</span>
+                    <h2>Czy hosting i domena są wliczone w cenę stworzenia strony internetowej?</h2>
+                </div>
+                <div class="faq-answer">
+                    <p> Tak, w cenie stworzenia strony internetowej zazwyczaj uwzględniamy zarówno hosting, jak i
+                        rejestrację domeny na pierwszy rok. Po upływie tego okresu będziesz odpowiedzialny za
+                        przedłużenie umowy na hosting i domenę.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-toggle">+</span>
+                    <h2>Czy moja strona będzie miała certyfikat SSL?</h2>
+                </div>
+                <div class="faq-answer">
+                    <p>Tak, wszystkie nasze strony internetowe są wyposażone w certyfikat SSL, który zapewnia bezpieczne
+                        połączenie i szyfrowanie danych przesyłanych między użytkownikami a Twoją stroną.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact" id="contactId" data-aos="zoom-in" data-aos-offset="200">
+            <h2>Kontakt</h2>
+            <div class="line"></div>
+            <div class="contact-section">
+                <h2>Skontaktuj się <br> z nami</h2>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:skylinewebbusiness@gmail.com">skylinewebbusiness@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>576646304, 508165977</p>
+                    </div>
+
+                    <div class="social-media">
+                        <a href="#" target="_blank">Znajdziesz nas na <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 SkylineWeb</p>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
